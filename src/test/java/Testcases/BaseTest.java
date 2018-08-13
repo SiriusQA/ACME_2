@@ -38,6 +38,7 @@ public class BaseTest extends TestListener {
 
 	@BeforeMethod
 	public void beforeMethod() {
+		int sampleInt = 0;
 		System.setProperty("webdriver.chrome.driver", "/Users/indhul/Documents/ChromeDriver/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
